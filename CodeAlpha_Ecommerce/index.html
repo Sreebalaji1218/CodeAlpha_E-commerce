@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Task 1: My E-Commerce Store</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; background-color: #f9f9f9; }
+        .product-container { display: flex; gap: 20px; }
+        .product-card { background: white; border: 1px solid #ddd; padding: 15px; border-radius: 5px; width: 200px; text-align: center; }
+        .cart-box { margin-top: 30px; background: #fff; padding: 15px; border: 1px solid #aaa; border-radius: 5px; }
+        button { background-color: #28a745; color: white; border: none; padding: 8px 12px; cursor: pointer; border-radius: 3px; }
+        button:hover { background-color: #218838; }
+    </style>
+</head>
+<body>
+
+    <h1>Welcome to My College Project Store</h1>
+    <hr>
+
+    <h2>Available Products</h2>
+    <div class="product-container" id="productsDiv">Loading items...</div>
+
+    <div class="cart-box">
+        <h2>My Shopping Cart</h2>
+        <div id="cartDiv">Your cart is empty.</div>
+        <h3 id="totalPriceDiv">Total Price: ₹0</h3>
+        <button id="checkoutBtn" style="background-color: #007bff;">Process Order</button>
+    </div>
+
+    <script src="app1.js"></script>
+</body>
+</html>
